@@ -1,5 +1,5 @@
 #!/bin!bash
-for file in /d/*
+for file in /d/Programming/Scripts/*
 do 
     if [ -d "$file" ]
     then 
