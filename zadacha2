@@ -1,0 +1,15 @@
+Задача 2
+
+$ cat file1
+I love UNIX!
+$ cat file2
+I don't like UNIX
+$ cat file1 <file2
+
+Что будет выведено на экран?
+
+Ответ
+I love UNIX!
+
+Объяснение
+Некоторые программы забивают на stdin, когда указаны файлы.

@@ -1,0 +1,5 @@
+$ cat 1
+The cake is a lie!
+Wanted!
+Cake or alive
+$ cat 1 | head | tail | sed -e 's/alive/dead/g' | tee | wc -l > 1 
